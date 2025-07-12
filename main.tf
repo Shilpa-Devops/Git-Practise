@@ -3,6 +3,11 @@ resource "azurerm_resource_group" "rg1" {
   location = "West Europe"
 }
 
+resource "azurerm_resource_group" "rg2" {
+  name     = "dev-dhiraj-rg"
+  location = "West Europe"
+}
+
 resource "azurerm_resource_group" "rg-Paritosh" {
   name     = "dev-Paritosh-rg"
   location = "West Europe"
